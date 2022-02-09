@@ -5,4 +5,26 @@
         <property name="path" type="string"/>
         <property name="method" type="string"/>
     </transfer>
+
+    <transfer name="GlueRequest">
+        <property name="content" type="string"/>
+        <property name="host" type="string"/>
+        <property name="path" type="string"/>
+        <property name="method" type="string"/>
+        <property name="meta" type="array" associative="true" singular="meta"/>
+        <property name="parametersString" type="string"/>
+    </transfer>
+
+    <transfer name="GlueResponse">
+        <property name="status" type="string"/>
+        <property name="content" type="string"/>
+        <property name="format" type="string"/>
+        <property name="meta" type="array" associative="true" singular="meta"/>
+    </transfer>
+
+    <transfer name="GlueRequestValidation">
+        <property name="isValid" type="bool"/>
+        <property name="statusCode" type="string"/>
+        <property name="validationError" type="string"/>
+    </transfer>
 </transfers>
