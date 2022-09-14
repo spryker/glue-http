@@ -4,6 +4,8 @@
 
 Library to provide HTTP based functionalities to implement a Glue API application.
 
+**DEPRECATED - This module is not continued at this point.**
+
 ## Installation
 
 ```
