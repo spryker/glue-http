@@ -4,6 +4,9 @@
 
 Library to provide HTTP based functionalities to implement a Glue API application.
 
+**DEPRECATED - This module is not continued at this point.**
+Please use [https://github.com/spryker/glue-http](https://github.com/spryker/glue-http) instead.
+
 ## Installation
 
 ```
